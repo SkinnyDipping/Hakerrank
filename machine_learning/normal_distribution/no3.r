@@ -1,0 +1,10 @@
+mean=70
+std=10
+A=1-pnorm(80,mean,std)
+C=pnorm(60,mean,std)
+B=1-C
+cat(format(A*100,digits=4))
+cat("\n")
+cat(format(B*100,digits=4))
+cat("\n")
+cat(format(C*100,digits=4))
